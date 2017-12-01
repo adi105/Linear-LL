@@ -51,5 +51,6 @@ public class Linear_LL {
         }
 
         System.out.print(head.get_data() + " ");
+        display_list(head.next);
     }
 }
